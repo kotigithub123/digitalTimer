@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.timer-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  flex-basis: auto;
+}
+
+.bg-container {
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.timer-image-box {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-image {
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  color: #00d9f5;
+  font-size: 20px;
+}
+
+.play-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  cursor: pointer;
+  border: 0px solid transparent;
+  outline: none;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.image {
+  height: 25px;
+  width: 25px;
+}
+
+.timer-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reset-play-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.decrement {
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  background-color: transparent;
+}
+
+.paragraph {
+  background-color: #00d9f5;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.minus-plus_box {
+  display: flex;
+}
